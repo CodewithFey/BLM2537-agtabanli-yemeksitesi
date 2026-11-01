@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarif Ekle - Tarif Defterim</title>
+    <link rel="stylesheet" href="css/stil.css">
+</head>
+<body>
+    <header>
+        <h1>Tarif Defterim</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Ana Sayfa</a></li>
+                <li><a href="tarifler.html">Tarifler</a></li>
+                <li><a href="tarif-ekle.html" class="aktif">Tarif Ekle</a></li>
+                <li><a href="hakkinda.html">Hakkında</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Tarif Ekle</h2>
+        <p>Eklemek istediğin tarifin bilgilerini aşağıya yaz.</p>
+
+        <form id="tarifFormu">
+            <p>
+                <label for="tarifAdi">Tarif adı</label><br>
+                <input type="text" id="tarifAdi" name="tarifAdi" placeholder="Örn. Kısır" required>
+            </p>
+            <p>
+                <label for="kategori">Kategori</label><br>
+                <select id="kategori" name="kategori">
+                    <option value="kahvalti">Kahvaltı</option>
+                    <option value="corba">Çorba</option>
+                    <option value="anaYemek">Ana yemek</option>
+                    <option value="tatli">Tatlı</option>
+                </select>
+            </p>
+            <p>
+                <label for="sure">Hazırlanma süresi (dakika)</label><br>
+                <input type="number" id="sure" name="sure" min="1" required>
+            </p>
+            <p>
+                <label for="kisi">Kişi sayısı</label><br>
+                <input type="number" id="kisi" name="kisi" min="1">
+            </p>
+            <p>
+                <label for="malzemeler">Malzemeler</label><br>
+                <textarea id="malzemeler" name="malzemeler" rows="4" placeholder="Her satıra bir malzeme yaz" required></textarea>
+            </p>
+            <p>
+                <label for="hazirlanis">Hazırlanışı</label><br>
+                <textarea id="hazirlanis" name="hazirlanis" rows="5" required></textarea>
+            </p>
+            <button type="submit">Tarifi Kaydet</button>
+        </form>
+    </main>
+</body>
+</html>
