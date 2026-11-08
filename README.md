@@ -9,3 +9,7 @@ Evde kolayca yapılabilecek yemek tariflerini bir araya getiren bir web sitesi.
 ## Hafta 2
 
 Site 4 sayfa oldu (ana sayfa, tarifler, tarif ekle, hakkında). Ortak menü, tarif tablosu ve tarif ekleme formu eklendi.
+
+## Hafta 3
+
+Krep, domatesli makarna ve mermer kek tarifleri eklendi. Forma zorluk ve vejetaryen seçimi geldi, form artık JavaScript ile kontrol ediliyor.
