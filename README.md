@@ -12,4 +12,4 @@ Site 4 sayfa oldu (ana sayfa, tarifler, tarif ekle, hakkında). Ortak menü, tar
 
 ## Hafta 3
 
-Krep, domatesli makarna ve mermer kek tarifleri eklendi. Forma zorluk ve vejetaryen seçimi geldi, form artık JavaScript ile kontrol ediliyor.
+Birkaç yemek tarifi eklendi. Forma zorluk ve vejetaryen seçimi geldi, form artık JavaScript ile kontrol ediliyor.
