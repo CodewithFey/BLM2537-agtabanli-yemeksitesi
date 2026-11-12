@@ -22,7 +22,7 @@
 
     <main>
         <h2>Tarif Ekle</h2>
-        <p>Eklemek istediğin tarifin bilgilerini aşağıya yaz.</p>
+        <p>Eklemek istediğin tarifin bilgilerini aşağıya yaz. Kaydettiğin tarifler Tarifler sayfasında görünür.</p>
 
         <form id="tarifFormu" novalidate>
             <p>
@@ -48,11 +48,11 @@
             </p>
             <p>
                 Zorluk:
-                <input type="radio" id="kolay" name="zorluk" value="kolay" checked>
+                <input type="radio" id="kolay" name="zorluk" value="Kolay" checked>
                 <label for="kolay">Kolay</label>
-                <input type="radio" id="orta" name="zorluk" value="orta">
+                <input type="radio" id="orta" name="zorluk" value="Orta">
                 <label for="orta">Orta</label>
-                <input type="radio" id="zor" name="zorluk" value="zor">
+                <input type="radio" id="zor" name="zorluk" value="Zor">
                 <label for="zor">Zor</label>
             </p>
             <p>
@@ -65,7 +65,7 @@
             </p>
             <p>
                 <label for="hazirlanis">Hazırlanışı</label><br>
-                <textarea id="hazirlanis" name="hazirlanis" rows="5" required></textarea>
+                <textarea id="hazirlanis" name="hazirlanis" rows="5" placeholder="Her satıra bir adım yaz" required></textarea>
             </p>
             <button type="submit">Tarifi Kaydet</button>
             <p id="mesaj" class="gizli"></p>

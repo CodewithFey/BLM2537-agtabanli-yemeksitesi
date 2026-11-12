@@ -13,3 +13,7 @@ Site 4 sayfa oldu (ana sayfa, tarifler, tarif ekle, hakkında). Ortak menü, tar
 ## Hafta 3
 
 Birkaç yemek tarifi eklendi. Forma zorluk ve vejetaryen seçimi geldi, form artık JavaScript ile kontrol ediliyor.
+
+## Hafta 4
+
+Formdan eklenen tarifler localStorage ile kaydediliyor ve Tarifler sayfasındaki tabloda listeleniyor.
